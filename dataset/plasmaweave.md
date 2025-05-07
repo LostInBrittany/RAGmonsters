@@ -17,20 +17,43 @@
 - **Special Ability**: Fusion Burst - Can briefly recreate stellar fusion conditions for explosive energy release
 - **Weakness**: Strong magnetic fields can disrupt its containment, reducing cohesion by 85%
 
-## Combat Statistics
-- **Attack Power**: 85/100
-- **Defense**: 60/100
-- **Speed**: 80/100
-- **Intelligence**: 70/100
-- **Special Power**: 90/100
+
 
 ## Affinities
 - **Strong Against**: Water creatures, Metal entities
 - **Weak Against**: Void entities, Magnetic manipulators
-- **Neutral**: Stone creatures, Plant entities
 
 ## Behavior and Ecology
 Plasmaweaves form naturally in areas of intense electromagnetic activity, such as during powerful solar storms or near fusion reactions. They feed on ambient energy and are drawn to power sources. They communicate through modulated electromagnetic frequencies that can be detected as unusual radio signals. They reproduce by carefully cultivating energy patterns that eventually develop consciousness when exposed to the right catalyst.
 
 ## Notable Specimens
 "The Living Star" is an ancient Plasmaweave that has achieved perfect control over fusion reactions. It can maintain a miniature star within its core and has created a sanctuary where other energy beings can safely exist. It periodically releases controlled bursts of energy that manifest as aurora-like phenomena visible for hundreds of miles.
+
+## QuestWorlds Stats
+
+### Keywords
+- **Plasma Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Energy Construct (18)** – Base 10, improved with 8 Improvement Points
+- **Electromagnetic Generator (17)** – Base 10, improved with 7 Improvement Points
+
+### Abilities
+- **Plasma Manipulator (20)**
+  - Fusion Burst (5M)
+  - Plasma Control (5M)
+  - Matter State Transformation (5M)
+- **Energy Construct (18)**
+  - State of Matter Shifting (3M)
+  - Energy Core Maintenance (3M)
+  - Electromagnetic Containment (3M)
+- **Electromagnetic Generator (17)**
+  - Field Generation (2M)
+  - Energy Channeling (2M)
+  - Frequency Modulation (2M)
+
+### Flaws
+- Vulnerability to Magnetic Fields (20)
+- Containment Instability (18)
+
+### Affinities
+- **Strong Against**: Water creatures, Metal entities (+5 augment)
+- **Weak Against**: Void entities, Magnetic manipulators (-5 hindrance)

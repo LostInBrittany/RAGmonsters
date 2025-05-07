@@ -17,17 +17,34 @@
 - **Special Ability**: Sandstorm Form - Can transform into a localized sandstorm
 - **Weakness**: Water causes it to become mud-like, reducing mobility by 90%
 
-## Combat Statistics
-- **Attack Power**: 65/100
-- **Defense**: 70/100
-- **Speed**: 75/100
-- **Intelligence**: 60/100
-- **Special Power**: 75/100
+## QuestWorlds Stats
+
+### Keywords
+- **Sand Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Desert Entity (17)** – Base 10, improved with 7 Improvement Points
+- **Erosion Master (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Sand Manipulator (20)**
+  - Sandstorm Form (5M)
+  - Density Alteration (5M)
+  - Particulate Manipulation (5M)
+- **Desert Entity (17)**
+  - Desert Adaptation (2M)
+  - Heat Resistance (2M)
+  - Surface Merging (2M)
+- **Erosion Master (18)**
+  - Erosion Touch (3M)
+  - Material Breakdown (3M)
+  - Surface Weathering (3M)
+
+### Flaws
+- Vulnerability to Water (20)
+- Mud Form Limitations (18)
 
 ## Affinities
-- **Strong Against**: Water creatures (by absorption), Glass entities
-- **Weak Against**: Wind manipulators, Plant controllers
-- **Neutral**: Fire creatures, Stone entities
+- **Strong Against**: Water creatures (by absorption), Glass entities (+5 augment)
+- **Weak Against**: Wind manipulators, Plant controllers (-5 hindrance)
 
 ## Behavior and Ecology
 Sandshifters are nomadic entities that follow desert wind patterns. They are most active during the day when the sand is hot and dry, often becoming dormant at night by merging with the desert floor. They communicate through patterns of vibration sent through sand particles. They reproduce by gathering mineral-rich sand into a core that gradually develops consciousness when exposed to sufficient heat and energy.

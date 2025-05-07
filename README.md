@@ -139,6 +139,12 @@ The following restrictions apply:
 
 4. **No Redistribution**: You may not redistribute this dataset except as part of RAG demonstrations or educational materials.
 
+### QuestWorlds License
+
+The QuestWorlds statistics for the monsters in this dataset follow the QuestWorlds System Reference Document (SRD) license. The QuestWorlds SRD is released under the ORC (Open RPG Creative) License and requires proper attribution to the original creators.
+
+This project uses the QuestWorlds SRD, © Moon Design Publications, LLC, used with permission under the ORC License. For more information on the ORC License, please visit the official QuestWorlds SRD website at [https://www.chaosium.com/questworlds-srd/](https://www.chaosium.com/questworlds-srd/) or review the ORC License at [https://openrpg.creative/](https://openrpg.creative/).
+
 For full license details, see the LICENSE file in the repository.
 
 ---

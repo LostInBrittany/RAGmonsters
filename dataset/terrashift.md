@@ -17,17 +17,34 @@
 - **Special Ability**: Tectonic Shift - Can create localized earthquakes and reshape terrain
 - **Weakness**: Separation from ground contact reduces power by 95% within minutes
 
-## Combat Statistics
-- **Attack Power**: 90/100
-- **Defense**: 95/100
-- **Speed**: 20/100
-- **Intelligence**: 60/100
-- **Special Power**: 85/100
+## QuestWorlds Stats
+
+### Keywords
+- **Earth Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Geological Entity (17)** – Base 10, improved with 7 Improvement Points
+- **Seismic Sensor (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Earth Manipulator (20)**
+  - Tectonic Shift (5M)
+  - Geokinesis (5M)
+  - Terrain Reshaping (5M)
+- **Geological Entity (17)**
+  - Mineral Composition (2M)
+  - Geologic Adaptation (2M)
+  - Earth Integration (2M)
+- **Seismic Sensor (18)**
+  - Seismic Sense (3M)
+  - Vibration Detection (3M)
+  - Underground Awareness (3M)
+
+### Flaws
+- Vulnerability to Ground Separation (20)
+- Limited Mobility (18)
 
 ## Affinities
-- **Strong Against**: Electric creatures, Fire creatures
-- **Weak Against**: Water creatures, Air creatures
-- **Neutral**: Plant creatures, Ice creatures
+- **Strong Against**: Electric creatures, Fire creatures (+5 augment)
+- **Weak Against**: Water creatures, Air creatures (-5 hindrance)
 
 ## Behavior and Ecology
 Terrashifts are ancient beings that spend most of their existence in a dormant state, appearing as unusual rock formations. They awaken during significant geological events or when their territory is threatened. They communicate through subtle vibrations in the earth that can be felt rather than heard. They reproduce extremely rarely, with new Terrashifts emerging from specially prepared mineral deposits after centuries of formation.

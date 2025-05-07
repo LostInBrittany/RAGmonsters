@@ -17,17 +17,34 @@
 - **Special Ability**: Entanglement - Can quantum-link with other entities to share information instantly
 - **Weakness**: Observation by multiple conscious beings forces it into a single state, reducing abilities by 85%
 
-## Combat Statistics
-- **Attack Power**: 70/100
-- **Defense**: 85/100
-- **Speed**: 75/100
-- **Intelligence**: 95/100
-- **Special Power**: 90/100
+## QuestWorlds Stats
+
+### Keywords
+- **Probability Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Quantum Anomaly (17)** – Base 10, improved with 7 Improvement Points
+- **Superposition Entity (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Probability Manipulator (20)**
+  - Entanglement (5M)
+  - Probability Alteration (5M)
+  - Quantum Information Processing (5M)
+- **Quantum Anomaly (17)**
+  - Quantum State Manipulation (2M)
+  - Wave Function Navigation (2M)
+  - Reality Flux Adaptation (2M)
+- **Superposition Entity (18)**
+  - Simultaneous Existence (3M)
+  - Phase Shifting (3M)
+  - Quantum Tunneling (3M)
+
+### Flaws
+- Vulnerability to Observation (20)
+- State Collapse Under Scrutiny (18)
 
 ## Affinities
-- **Strong Against**: Time manipulators, Reality benders
-- **Weak Against**: Hive minds, Multiple observers
-- **Neutral**: Elemental creatures, Physical entities
+- **Strong Against**: Time manipulators, Reality benders (+5 augment)
+- **Weak Against**: Hive minds, Multiple observers (-5 hindrance)
 
 ## Behavior and Ecology
 Quantumfluxes exist in a state of perpetual possibility, perceiving all potential outcomes simultaneously. They are drawn to areas where reality is thin or where probability behaves unusually. They communicate through quantum information that appears as intuitive understanding rather than language. Their reproduction involves creating quantum entangled "offspring" that gradually develop independent wave functions.

@@ -17,20 +17,43 @@
 - **Special Ability**: Nightmare Manifestation - Can temporarily bring dream constructs into reality
 - **Weakness**: Logical paradoxes and lucid dreamers can disrupt its control, reducing power by 80%
 
-## Combat Statistics
-- **Attack Power**: 60/100
-- **Defense**: 70/100
-- **Speed**: 85/100
-- **Intelligence**: 90/100
-- **Special Power**: 95/100
+
 
 ## Affinities
 - **Strong Against**: Sleeping entities, Emotion-based creatures
 - **Weak Against**: Logical entities, Reality anchors
-- **Neutral**: Elemental creatures, Physical beings
 
 ## Behavior and Ecology
 Dreamweavers exist primarily in the collective unconscious, moving between the dreams of sleeping creatures. They feed on emotional energy generated during dreams and are particularly drawn to vivid dreamers. They communicate through shared dream symbols and can connect the dreams of multiple individuals. They reproduce by cultivating recurring dream patterns that eventually develop consciousness.
 
 ## Notable Specimens
 "The Nightmare Shepherd" is an ancient Dreamweaver that has mastered the art of nightmare manipulation. It collects and catalogs fears from across the collective unconscious, but rather than exploiting them, it helps dreamers confront and overcome their deepest terrors. It can maintain dream constructs in the waking world for extended periods and has created a sanctuary where dreams and reality seamlessly blend.
+
+## QuestWorlds Stats
+
+### Keywords
+- **Dream Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Subconscious Entity (18)** – Base 10, improved with 8 Improvement Points
+- **Memory Extractor (17)** – Base 10, improved with 7 Improvement Points
+
+### Abilities
+- **Dream Manipulator (20)**
+  - Nightmare Manifestation (5M)
+  - Dream Alteration (5M)
+  - Dream Creation (5M)
+- **Subconscious Entity (18)**
+  - Dreamscape Navigation (3M)
+  - Emotional Energy Absorption (3M)
+  - Mental Space Habitation (3M)
+- **Memory Extractor (17)**
+  - Memory Visualization (2M)
+  - Subconscious Connection (2M)
+  - Dream Symbol Interpretation (2M)
+
+### Flaws
+- Vulnerability to Logical Paradoxes (20)
+- Disruption by Lucid Dreamers (18)
+
+### Affinities
+- **Strong Against**: Sleeping entities, Emotion-based creatures (+5 augment)
+- **Weak Against**: Logical entities, Reality anchors (-5 hindrance)

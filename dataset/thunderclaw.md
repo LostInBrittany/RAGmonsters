@@ -17,17 +17,34 @@
 - **Special Ability**: Thunder Dash - Can transform into pure electrical energy for short bursts of movement
 - **Weakness**: Grounding attacks that disperse electrical charge reduce power by 70%
 
-## Combat Statistics
-- **Attack Power**: 80/100
-- **Defense**: 55/100
-- **Speed**: 95/100
-- **Intelligence**: 65/100
-- **Special Power**: 85/100
+## QuestWorlds Stats
+
+### Keywords
+- **Electric Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Storm Predator (17)** – Base 10, improved with 7 Improvement Points
+- **Lightning Beast (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Electric Manipulator (20)**
+  - Electrokinesis (5M)
+  - Static Field (5M)
+  - Electrical Discharge (5M)
+- **Storm Predator (17)**
+  - Thunder Dash (2M)
+  - Storm Sensing (2M)
+  - Predatory Instincts (2M)
+- **Lightning Beast (18)**
+  - Conductive Claws (3M)
+  - Electromagnetic Field Generation (3M)
+  - Storm Energy Absorption (3M)
+
+### Flaws
+- Vulnerability to Grounding (20)
+- Charge Dependency (18)
 
 ## Affinities
-- **Strong Against**: Water creatures, Metal creatures
-- **Weak Against**: Earth creatures, Rubber-based creatures
-- **Neutral**: Fire creatures, Plant creatures
+- **Strong Against**: Water creatures, Metal creatures (+5 augment)
+- **Weak Against**: Earth creatures, Rubber-based creatures (-5 hindrance)
 
 ## Behavior and Ecology
 Thunderclaws are nomadic, following storm systems to recharge their electrical reserves. They are primarily nocturnal, using electrical sensing abilities to locate prey during thunderstorms. They reproduce during the most intense electrical storms, with cubs requiring frequent exposure to electrical energy to develop properly.

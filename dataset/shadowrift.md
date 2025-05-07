@@ -17,17 +17,34 @@
 - **Special Ability**: Void Step - Can teleport between shadows within line of sight
 - **Weakness**: Intense light sources disrupt form, reducing cohesion by 75%
 
-## Combat Statistics
-- **Attack Power**: 70/100
-- **Defense**: 60/100
-- **Speed**: 85/100
-- **Intelligence**: 90/100
-- **Special Power**: 95/100
+## QuestWorlds Stats
+
+### Keywords
+- **Shadow Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Void Entity (17)** – Base 10, improved with 7 Improvement Points
+- **Dimensional Phaser (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Shadow Manipulator (20)**
+  - Umbramancy (5M)
+  - Shadow Control (5M)
+  - Darkness Generation (5M)
+- **Void Entity (17)**
+  - Void Step (2M)
+  - Extradimensional Existence (2M)
+  - Dark Energy Absorption (2M)
+- **Dimensional Phaser (18)**
+  - Dimensional Phasing (3M)
+  - Reality Boundary Crossing (3M)
+  - Void Perception (3M)
+
+### Flaws
+- Vulnerability to Intense Light (20)
+- Form Instability (18)
 
 ## Affinities
-- **Strong Against**: Light creatures, Psychic creatures
-- **Weak Against**: Radiant creatures, Reality-anchored creatures
-- **Neutral**: Elemental creatures, Technological creatures
+- **Strong Against**: Light creatures, Psychic creatures (+5 augment)
+- **Weak Against**: Radiant creatures, Reality-anchored creatures (-5 hindrance)
 
 ## Behavior and Ecology
 Shadowrifts are solitary entities that avoid direct interaction with physical beings. They feed on ambient emotional energy, particularly fear and wonder. They are most active during astronomical events that create unique shadow patterns. Their reproduction is poorly understood but appears to involve the fragmentation of their consciousness during dimensional stress events.

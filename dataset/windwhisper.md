@@ -17,17 +17,34 @@
 - **Special Ability**: Tempest Form - Can transform into a small, localized tornado
 - **Weakness**: Extreme cold can solidify portions of its form, reducing mobility by 80%
 
-## Combat Statistics
-- **Attack Power**: 55/100
-- **Defense**: 60/100
-- **Speed**: 100/100
-- **Intelligence**: 75/100
-- **Special Power**: 85/100
+## QuestWorlds Stats
+
+### Keywords
+- **Wind Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Aerial Spirit (17)** – Base 10, improved with 7 Improvement Points
+- **Pressure Controller (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Wind Manipulator (20)**
+  - Aerokinesis (5M)
+  - Wind Current Control (5M)
+  - Air Manipulation (5M)
+- **Aerial Spirit (17)**
+  - Tempest Form (2M)
+  - Air Current Navigation (2M)
+  - Incorporeal Flight (2M)
+- **Pressure Controller (18)**
+  - Atmospheric Pressure Alteration (3M)
+  - Weather Influence (3M)
+  - Whispered Communication (3M)
+
+### Flaws
+- Vulnerability to Cold (20)
+- Form Instability (18)
 
 ## Affinities
-- **Strong Against**: Earth creatures, Fire creatures
-- **Weak Against**: Ice creatures, Electric creatures
-- **Neutral**: Water creatures, Plant creatures
+- **Strong Against**: Earth creatures, Fire creatures (+5 augment)
+- **Weak Against**: Ice creatures, Electric creatures (-5 hindrance)
 
 ## Behavior and Ecology
 Windwhispers are nomadic entities that follow global wind patterns. They communicate through subtle variations in air pressure that sound like whispered voices to those who can perceive them. They feed on kinetic energy and are drawn to areas with strong, consistent winds. During calm weather, they enter a dormant state, becoming nearly invisible.

@@ -17,20 +17,43 @@
 - **Special Ability**: Blizzard Veil - Creates a swirling storm of ice and water that obscures vision and slows enemies
 - **Weakness**: Heat-based attacks cause rapid evaporation, reducing mass by up to 40%
 
-## Combat Statistics
-- **Attack Power**: 65/100
-- **Defense**: 80/100
-- **Speed**: 70/100
-- **Intelligence**: 75/100
-- **Special Power**: 85/100
+
 
 ## Affinities
 - **Strong Against**: Fire creatures, Earth creatures
 - **Weak Against**: Electric creatures, Wind creatures
-- **Neutral**: Plant creatures, Psychic creatures
 
 ## Behavior and Ecology
 Aquafrost entities are semi-social, often forming small groups of 3-5 individuals. They communicate through harmonic resonances within their crystalline structures. During summer months, they retreat to deeper waters where temperatures remain cold enough to maintain their ice components.
 
 ## Notable Specimens
 "The Glacier Queen" is an ancient Aquafrost that has existed for over 150 years, developing the unique ability to create semi-sentient ice sculptures that act as guardians. Her control over water extends to atmospheric moisture, allowing her to create localized weather phenomena.
+
+## QuestWorlds Stats
+
+### Keywords
+- **Cryohydrokinetic Entity (19)** – Base 15, improved with 4 Improvement Points
+- **Elemental Hybrid (17)** – Base 10, improved with 7 Improvement Points
+- **Ice Former (19)** – Base 10, improved with 9 Improvement Points
+
+### Abilities
+- **Cryohydrokinetic Entity (19)**
+  - Blizzard Veil (4M)
+  - Water Control (4M)
+  - Ice Manipulation (4M)
+- **Elemental Hybrid (17)**
+  - Adapt to Frozen Environments (2M)
+  - Water-Ice Transition (2M)
+  - Crystalline Resonance (2M)
+- **Ice Former (19)**
+  - Freezing Touch (4M)
+  - Ice Structure Creation (4M)
+  - Cooling Aura (4M)
+
+### Flaws
+- Vulnerability to Heat (19)
+- Mass Reduction Under Stress (17)
+
+### Affinities
+- **Strong Against**: Fire creatures, Earth creatures (+5 augment)
+- **Weak Against**: Electric creatures, Wind creatures (-5 hindrance)

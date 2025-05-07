@@ -17,20 +17,41 @@
 - **Special Ability**: Depth Charge - Can create imploding water bubbles that generate devastating shockwaves
 - **Weakness**: Rapid decompression causes severe damage, reducing vitality by 75%
 
-## Combat Statistics
-- **Attack Power**: 80/100
-- **Defense**: 85/100
-- **Speed**: 70/100 (underwater), 30/100 (on land)
-- **Intelligence**: 75/100
-- **Special Power**: 80/100
-
 ## Affinities
 - **Strong Against**: Surface dwellers, Fire creatures
 - **Weak Against**: Electricity manipulators, Sonic entities
-- **Neutral**: Ice creatures, Air entities
 
 ## Behavior and Ecology
 Abyssalurks inhabit the darkest depths of the ocean, creating complex societies in underwater caves and trenches. They are territorial and mark their domains with distinctive bioluminescent patterns. They communicate through a combination of light signals and low-frequency vibrations. They reproduce slowly, with females laying eggs in protected nursery caves that are guarded by the entire community.
 
 ## Notable Specimens
 "The Trench Sovereign" is a colossal Abyssalurk that has established a kingdom spanning multiple oceanic trenches. It has developed the ability to control deep sea currents and can communicate telepathically with all marine life in its territory. Its bioluminescence is so sophisticated it can create three-dimensional illusions underwater.
+
+## QuestWorlds Stats
+
+### Keywords
+- **Pressure Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Deep Sea Entity (17)** – Base 10, improved with 7 Improvement Points
+- **Bioluminescent Communicator (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Pressure Manipulator (20)**
+  - Depth Charge (5M)
+  - Localized Pressure Control (5M)
+  - Water Compression (5M)
+- **Deep Sea Entity (17)**
+  - Underwater Navigation (2M)
+  - Withstand Pressure (2M)
+  - Multiple Webbed Limbs (2M)
+- **Bioluminescent Communicator (18)**
+  - Hypnotic Light Patterns (3M)
+  - Underwater Signaling (3M)
+  - Create Light Source (3M)
+
+### Flaws
+- Vulnerability to Decompression (20)
+- Limited Mobility on Land (17)
+
+### Affinities
+- **Strong Against**: Surface dwellers, Fire creatures (+5 augment)
+- **Weak Against**: Electricity manipulators, Sonic entities (-5 hindrance)

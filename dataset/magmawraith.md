@@ -17,20 +17,43 @@
 - **Special Ability**: Eruption - Can trigger explosive release of pressurized magma
 - **Weakness**: Rapid cooling causes temporary solidification, reducing mobility by 90%
 
-## Combat Statistics
-- **Attack Power**: 90/100
-- **Defense**: 75/100
-- **Speed**: 40/100
-- **Intelligence**: 60/100
-- **Special Power**: 85/100
+
 
 ## Affinities
 - **Strong Against**: Ice creatures, Plant creatures
 - **Weak Against**: Water creatures, Air creatures
-- **Neutral**: Earth creatures, Electric creatures
 
 ## Behavior and Ecology
 Magmawraiths form in the magma chambers of active volcanoes, absorbing minerals and heat energy until achieving consciousness. They are drawn to geothermal activity and can remain dormant for decades inside cooling lava flows. They communicate through heat pulses and low-frequency vibrations. They reproduce by creating "seed crystals" of specialized minerals that are ejected during volcanic eruptions and develop into new Magmawraiths when exposed to sufficient heat.
 
 ## Notable Specimens
 "The Eternal Flame" is an ancient Magmawraith that has existed for centuries, developing control over tectonic activity in its region. It can trigger or prevent volcanic eruptions at will and has created a network of lava tubes that serve as pathways between distant volcanoes.
+
+## QuestWorlds Stats
+
+### Keywords
+- **Magma Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Volcanic Entity (18)** – Base 10, improved with 8 Improvement Points
+- **Heat Generator (17)** – Base 10, improved with 7 Improvement Points
+
+### Abilities
+- **Magma Manipulator (20)**
+  - Eruption (5M)
+  - Magmakinesis (5M)
+  - Lava Flow Control (5M)
+- **Volcanic Entity (18)**
+  - Obsidian Exoskeleton (3M)
+  - Volcanic Adaptation (3M)
+  - Mineral Absorption (3M)
+- **Heat Generator (17)**
+  - Heat Aura (2M)
+  - Temperature Manipulation (2M)
+  - Thermal Resistance (2M)
+
+### Flaws
+- Vulnerability to Rapid Cooling (20)
+- Limited Mobility (18)
+
+### Affinities
+- **Strong Against**: Ice creatures, Plant creatures (+5 augment)
+- **Weak Against**: Water creatures, Air creatures (-5 hindrance)

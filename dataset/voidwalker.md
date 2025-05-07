@@ -17,17 +17,34 @@
 - **Special Ability**: Cosmic Step - Can traverse vast distances by folding space
 - **Weakness**: Planetary gravitational fields constrain abilities, reducing power by 70% on Earth-like worlds
 
-## Combat Statistics
-- **Attack Power**: 85/100
-- **Defense**: 75/100
-- **Speed**: 60/100 (in atmosphere), 100/100 (in space)
-- **Intelligence**: 95/100
-- **Special Power**: 90/100
+## QuestWorlds Stats
+
+### Keywords
+- **Void Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Cosmic Entity (17)** – Base 10, improved with 7 Improvement Points
+- **Stellar Channel (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Void Manipulator (20)**
+  - Void Control (5M)
+  - Space Folding (5M)
+  - Cosmic Energy Manipulation (5M)
+- **Cosmic Entity (17)**
+  - Cosmic Step (2M)
+  - Higher Dimensional Existence (2M)
+  - Multi-Dimensional Perception (2M)
+- **Stellar Channel (18)**
+  - Stellar Energy Harnessing (3M)
+  - Star Connection (3M)
+  - Celestial Communication (3M)
+
+### Flaws
+- Gravitational Constraint (20)
+- Dimensional Anchoring (18)
 
 ## Affinities
-- **Strong Against**: Elemental creatures, Physical entities
-- **Weak Against**: Reality anchors, Dimensional binders
-- **Neutral**: Energy beings, Psychic entities
+- **Strong Against**: Elemental creatures, Physical entities (+5 augment)
+- **Weak Against**: Reality anchors, Dimensional binders (-5 hindrance)
 
 ## Behavior and Ecology
 Voidwalkers are nomadic entities that travel between star systems, drawn to unusual cosmic phenomena. They perceive reality on multiple dimensional levels simultaneously and communicate through patterns of stellar energy that can be observed as unusual astronomical events. Their life cycle spans millions of years, with reproduction occurring during rare cosmic alignments when they can channel enough energy to split their consciousness.

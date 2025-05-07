@@ -17,17 +17,34 @@
 - **Special Ability**: Harmonic Resonance - Can match the resonant frequency of objects, potentially shattering them
 - **Weakness**: Vacuum environments nullify all powers, rendering it nearly powerless
 
-## Combat Statistics
-- **Attack Power**: 70/100
-- **Defense**: 50/100
-- **Speed**: 75/100
-- **Intelligence**: 80/100
-- **Special Power**: 90/100
+## QuestWorlds Stats
+
+### Keywords
+- **Sound Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Sonic Entity (17)** – Base 10, improved with 7 Improvement Points
+- **Frequency Controller (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Sound Manipulator (20)**
+  - Sonokinesis (5M)
+  - Sound Wave Generation (5M)
+  - Acoustic Pattern Creation (5M)
+- **Sonic Entity (17)**
+  - Harmonic Resonance (2M)
+  - Sonic Wave Composition (2M)
+  - Sound Energy Absorption (2M)
+- **Frequency Controller (18)**
+  - Frequency Modulation (3M)
+  - Resonant Frequency Detection (3M)
+  - Harmonic Pattern Recognition (3M)
+
+### Flaws
+- Vulnerability to Vacuum (20)
+- Limited Physical Form (18)
 
 ## Affinities
-- **Strong Against**: Crystal creatures, Glass-based entities
-- **Weak Against**: Amorphous creatures, Entities without physical form
-- **Neutral**: Elemental creatures, Organic creatures
+- **Strong Against**: Crystal creatures, Glass-based entities (+5 augment)
+- **Weak Against**: Amorphous creatures, Entities without physical form (-5 hindrance)
 
 ## Behavior and Ecology
 Soundweavers are drawn to areas with interesting acoustic properties, particularly natural amphitheaters and echo chambers. They feed on ambient sound energy and can become dormant in extremely quiet environments. They communicate through complex symphonies of sound that can convey detailed information and emotions. They reproduce by creating "sound seeds" - concentrated packets of sonic energy that develop into new Soundweavers when exposed to sufficient acoustic stimulation.

@@ -17,17 +17,34 @@
 - **Special Ability**: Spore Cloud - Releases hallucinogenic spores that confuse enemies
 - **Weakness**: Fire and extreme cold cause rapid dehydration, reducing mobility by 80%
 
-## Combat Statistics
-- **Attack Power**: 60/100
-- **Defense**: 75/100
-- **Speed**: 50/100
-- **Intelligence**: 70/100
-- **Special Power**: 80/100
+## QuestWorlds Stats
+
+### Keywords
+- **Plant Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Flora Sentinel (17)** – Base 10, improved with 7 Improvement Points
+- **Nature Protector (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Plant Manipulator (20)**
+  - Chlorokinesis (5M)
+  - Vine Control (5M)
+  - Rapid Growth Stimulation (5M)
+- **Flora Sentinel (17)**
+  - Spore Cloud (2M)
+  - Bark-like Protection (2M)
+  - Jungle Adaptation (2M)
+- **Nature Protector (18)**
+  - Photosynthetic Healing (3M)
+  - Ecosystem Connection (3M)
+  - Symbiotic Relationship (3M)
+
+### Flaws
+- Vulnerability to Fire (20)
+- Susceptibility to Cold (18)
 
 ## Affinities
-- **Strong Against**: Earth creatures, Water creatures
-- **Weak Against**: Fire creatures, Ice creatures
-- **Neutral**: Electric creatures, Wind creatures
+- **Strong Against**: Earth creatures, Water creatures (+5 augment)
+- **Weak Against**: Fire creatures, Ice creatures (-5 hindrance)
 
 ## Behavior and Ecology
 Vinelashes form symbiotic communities with local plant life, accelerating growth and protecting forest ecosystems. They are diurnal, requiring at least 6 hours of direct sunlight daily. During drought seasons, they can enter a dormant state, reducing to a seed-like form until conditions improve.

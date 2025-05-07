@@ -17,17 +17,34 @@
 - **Special Ability**: Miasma Cloud - Creates a fog of hallucinogenic spores that cause confusion and fear
 - **Weakness**: Purification elements and extreme cold solidify toxins, reducing effectiveness by 70%
 
-## Combat Statistics
-- **Attack Power**: 75/100
-- **Defense**: 60/100
-- **Speed**: 40/100
-- **Intelligence**: 65/100
-- **Special Power**: 90/100
+## QuestWorlds Stats
+
+### Keywords
+- **Toxin Manipulator (20)** – Base 15, improved with 5 Improvement Points
+- **Toxic Flora (17)** – Base 10, improved with 7 Improvement Points
+- **Corrosive Entity (18)** – Base 10, improved with 8 Improvement Points
+
+### Abilities
+- **Toxin Manipulator (20)**
+  - Toxikinesis (5M)
+  - Miasma Cloud (5M)
+  - Poison Secretion (5M)
+- **Toxic Flora (17)**
+  - Toxin Absorption (2M)
+  - Pollutant Processing (2M)
+  - Environmental Adaptation (2M)
+- **Corrosive Entity (18)**
+  - Acid Secretion (3M)
+  - Material Dissolution (3M)
+  - Chemical Barrier Creation (3M)
+
+### Flaws
+- Vulnerability to Purification (20)
+- Susceptibility to Cold (18)
 
 ## Affinities
-- **Strong Against**: Water creatures, Organic creatures
-- **Weak Against**: Fire creatures, Stone creatures
-- **Neutral**: Electric creatures, Air creatures
+- **Strong Against**: Water creatures, Organic creatures (+5 augment)
+- **Weak Against**: Fire creatures, Stone creatures (-5 hindrance)
 
 ## Behavior and Ecology
 Toxitangles thrive in polluted environments, actively absorbing and processing environmental toxins. They are territorial and set up chemical barriers around their domain. They reproduce by budding, with small segments breaking off and developing into new individuals when conditions are favorable. Despite their toxic nature, they actually help purify environments over time by processing and neutralizing pollutants.
