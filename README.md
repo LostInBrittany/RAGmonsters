@@ -145,7 +145,7 @@ The QuestWorlds statistics for the monsters in this dataset follow the QuestWorl
 
 This project uses the QuestWorlds SRD, © Moon Design Publications, LLC, used with permission under the ORC License. For more information on the ORC License, please visit the official QuestWorlds SRD website at [https://www.chaosium.com/questworlds-srd/](https://www.chaosium.com/questworlds-srd/) or review the ORC License at [https://openrpg.creative/](https://openrpg.creative/).
 
-For full license details, see the LICENSE file in the repository.
+For full license details, see the [LICENSE file](./LICENSE.md) in the repository.
 
 ---
 
