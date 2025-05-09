@@ -37,13 +37,6 @@ Each RAGmonster is described in its own markdown file with a consistent structur
 - Special Ability
 - Weakness
 
-## Combat Statistics
-- Attack Power
-- Defense
-- Speed
-- Intelligence
-- Special Power
-
 ## Affinities
 - Strong Against
 - Weak Against

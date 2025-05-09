@@ -76,18 +76,6 @@ CREATE TABLE hindrances (
     CONSTRAINT fk_monster_hindrances FOREIGN KEY (monster_id) REFERENCES monsters(monster_id)
 );
 
--- Combat statistics table
-CREATE TABLE combat_statistics (
-    stat_id SERIAL PRIMARY KEY,
-    monster_id INTEGER NOT NULL REFERENCES monsters(monster_id) ON DELETE CASCADE,
-    attack_power INTEGER,
-    defense INTEGER,
-    speed INTEGER,
-    intelligence INTEGER,
-    special_power INTEGER,
-    CONSTRAINT fk_monster_combat FOREIGN KEY (monster_id) REFERENCES monsters(monster_id)
-);
-
 -- Create indexes for performance
 CREATE INDEX idx_monster_name ON monsters(name);
 CREATE INDEX idx_monster_category ON monsters(category);

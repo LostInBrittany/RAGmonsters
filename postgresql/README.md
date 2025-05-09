@@ -20,7 +20,6 @@ The database is structured with the following tables:
 5. **flaws**: Table for monster weaknesses/flaws
 6. **augments**: Table for creatures the monster is strong against
 7. **hindrances**: Table for creatures the monster is weak against
-8. **combat_statistics**: Table for numerical combat statistics
 
 ## Getting Started
 
