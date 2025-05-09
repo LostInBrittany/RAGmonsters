@@ -80,13 +80,7 @@ BEGIN
     (monster_id_val, 'Electricity manipulators', -5),
     (monster_id_val, 'Sonic entities', -5);
     
-    -- Insert combat statistics (if available)
-    -- Note: This monster doesn't have explicit combat stats in the source data
-    -- This is a placeholder for monsters that do have these values
-    /*
-    INSERT INTO combat_statistics (monster_id, attack_power, defense, speed, intelligence, special_power) VALUES
-    (monster_id_val, 80, 70, 60, 85, 95);
-    */
+
 END $$;
 
 -- Add another monster: Flameburst

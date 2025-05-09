@@ -12,7 +12,6 @@
 -- DELETE FROM abilities;
 -- DELETE FROM keywords;
 -- DELETE FROM questworlds_stats;
--- DELETE FROM combat_statistics;
 -- DELETE FROM monsters;
 
 -- Import each monster
