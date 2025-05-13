@@ -1,8 +1,10 @@
 # Voidwalker
 
 ## Basic Information
-- **Category**: Cosmic Entity
-- **Habitat**: Interstellar Void
+- **Category**: Celestial/Cosmic
+- **Subcategory**: Cosmic Entity
+- **Habitat**: Extra-dimensional
+- **Biome**: Interstellar Void
 - **Rarity**: Extremely Rare
 - **Discovery**: First detected in 2025 by astronomer Dr. Stella Cosmos during observations of an unusual stellar phenomenon
 

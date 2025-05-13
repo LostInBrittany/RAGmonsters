@@ -1,8 +1,10 @@
 # Graviton
 
 ## Basic Information
-- **Category**: Gravitational Anomaly
-- **Habitat**: Gravity Wells
+- **Category**: Anomaly/Phenomenon
+- **Subcategory**: Gravitational Anomaly
+- **Habitat**: Extra-dimensional
+- **Biome**: Gravity Wells
 - **Rarity**: Very Rare
 - **Discovery**: First detected in 2025 by astrophysicist Dr. Newton Mass during gravitational wave research
 

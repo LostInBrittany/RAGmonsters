@@ -1,8 +1,10 @@
 # Abyssalurk
 
 ## Basic Information
-- **Category**: Deep Sea Entity
-- **Habitat**: Oceanic Trenches
+- **Category**: Aquatic
+- **Subcategory**: Deep Sea Entity
+- **Habitat**: Aquatic
+- **Biome**: Oceanic Trenches
 - **Rarity**: Rare
 - **Discovery**: First documented in 2024 by marine biologist Dr. Marina Depths during a deep-sea expedition
 

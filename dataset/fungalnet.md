@@ -1,8 +1,10 @@
 # Fungalnet
 
 ## Basic Information
-- **Category**: Mycelial Collective
-- **Habitat**: Ancient Forests
+- **Category**: Nature/Organic
+- **Subcategory**: Mycelial Collective
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Ancient Forests
 - **Rarity**: Uncommon
 - **Discovery**: First identified in 2023 by mycologist Dr. Spore during research on fungal communication networks
 

@@ -1,8 +1,10 @@
 # Mirrormorph
 
 ## Basic Information
-- **Category**: Reflective Entity
-- **Habitat**: Mirror Realms
+- **Category**: Construct/Artificial
+- **Subcategory**: Reflective Entity
+- **Habitat**: Extra-dimensional
+- **Biome**: Mirror Realms
 - **Rarity**: Rare
 - **Discovery**: First encountered in 2024 by optical researcher Dr. Glass during experiments with perfect reflective surfaces
 

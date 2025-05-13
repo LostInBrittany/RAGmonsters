@@ -1,8 +1,10 @@
 # Psyforge
 
 ## Basic Information
-- **Category**: Psychic Construct
-- **Habitat**: Thought Nexuses
+- **Category**: Construct/Artificial
+- **Subcategory**: Psychic Construct
+- **Habitat**: Extra-dimensional
+- **Biome**: Thought Nexuses
 - **Rarity**: Very Rare
 - **Discovery**: First encountered in 2025 by parapsychologist Dr. Mentis during a controlled telepathy experiment
 

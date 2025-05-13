@@ -1,8 +1,10 @@
 # Chronoshift
 
 ## Basic Information
-- **Category**: Temporal Anomaly
-- **Habitat**: Time Fractures
+- **Category**: Anomaly/Phenomenon
+- **Subcategory**: Temporal Anomaly
+- **Habitat**: Extra-dimensional
+- **Biome**: Time Fractures
 - **Rarity**: Extremely Rare
 - **Discovery**: First observed in 2025 by theoretical physicist Dr. Tempus during experiments with quantum entanglement
 

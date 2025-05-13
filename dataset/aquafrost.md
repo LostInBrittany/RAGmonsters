@@ -1,8 +1,10 @@
 # Aquafrost
 
 ## Basic Information
-- **Category**: Elemental Hybrid
-- **Habitat**: Glacial Lakes
+- **Category**: Elemental
+- **Subcategory**: Elemental Hybrid
+- **Habitat**: Aquatic
+- **Biome**: Glacial Lakes
 - **Rarity**: Uncommon
 - **Discovery**: Discovered in 2023 by marine biologist Dr. Elena Winters during an expedition to the Frozen Depths
 

@@ -1,8 +1,10 @@
 # Terrashift
 
 ## Basic Information
-- **Category**: Geological Entity
-- **Habitat**: Tectonic Boundaries
+- **Category**: Nature/Organic
+- **Subcategory**: Geological Entity
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Tectonic Boundaries
 - **Rarity**: Rare
 - **Discovery**: First observed in 2025 by geologist Dr. Stone during an unusual seismic event
 

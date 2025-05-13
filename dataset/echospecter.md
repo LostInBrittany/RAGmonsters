@@ -1,8 +1,10 @@
 # Echospecter
 
 ## Basic Information
-- **Category**: Resonance Entity
-- **Habitat**: Acoustic Anomalies
+- **Category**: Anomaly/Phenomenon
+- **Subcategory**: Resonance Entity
+- **Habitat**: Energy/Acoustic
+- **Biome**: Acoustic Anomalies
 - **Rarity**: Rare
 - **Discovery**: First detected in 2024 by acoustician Dr. Echo Chamber during research on architectural acoustics
 

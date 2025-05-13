@@ -1,8 +1,10 @@
 # Dreamweaver
 
 ## Basic Information
-- **Category**: Subconscious Entity
-- **Habitat**: Dream Realms
+- **Category**: Anomaly/Phenomenon
+- **Subcategory**: Subconscious Entity
+- **Habitat**: Extra-dimensional
+- **Biome**: Dream Realms
 - **Rarity**: Very Rare
 - **Discovery**: First documented in 2025 by neurologist Dr. Somnia during experimental dream-sharing research
 

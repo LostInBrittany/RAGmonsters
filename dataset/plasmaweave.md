@@ -1,8 +1,10 @@
 # Plasmaweave
 
 ## Basic Information
-- **Category**: Energy Construct
-- **Habitat**: Electromagnetic Hotspots
+- **Category**: Elemental
+- **Subcategory**: Energy Construct
+- **Habitat**: Energy/Acoustic
+- **Biome**: Electromagnetic Hotspots
 - **Rarity**: Rare
 - **Discovery**: First documented in 2024 by plasma physicist Dr. Tesla Spark during a fusion experiment
 

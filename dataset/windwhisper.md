@@ -1,8 +1,10 @@
 # Windwhisper
 
 ## Basic Information
-- **Category**: Aerial Spirit
-- **Habitat**: High Mountain Peaks
+- **Category**: Spirit/Ethereal
+- **Subcategory**: Aerial Spirit
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: High Mountain Peaks
 - **Rarity**: Uncommon
 - **Discovery**: First documented by mountaineer Zephyr Gale in 2024 at the summit of Mount Skyreach
 

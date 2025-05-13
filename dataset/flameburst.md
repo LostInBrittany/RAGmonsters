@@ -1,8 +1,10 @@
 # Flameburst
 
 ## Basic Information
-- **Category**: Elemental Beast
-- **Habitat**: Volcanic Mountains
+- **Category**: Elemental
+- **Subcategory**: Elemental Beast
+- **Habitat**: Volcanic/Geothermal
+- **Biome**: Volcanic Mountains
 - **Rarity**: Rare
 - **Discovery**: First documented in the Ember Peaks by explorer Jax Fireheart in 2024
 

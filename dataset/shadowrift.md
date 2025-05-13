@@ -1,8 +1,10 @@
 # Shadowrift
 
 ## Basic Information
-- **Category**: Void Entity
-- **Habitat**: Dark Dimensions
+- **Category**: Celestial/Cosmic
+- **Subcategory**: Void Entity
+- **Habitat**: Extra-dimensional
+- **Biome**: Dark Dimensions
 - **Rarity**: Very Rare
 - **Discovery**: First documented by paranormal researcher Dr. Nyx Umbra in 2025 during the Midnight Eclipse
 

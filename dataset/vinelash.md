@@ -1,8 +1,10 @@
 # Vinelash
 
 ## Basic Information
-- **Category**: Flora Sentinel
-- **Habitat**: Dense Jungles
+- **Category**: Nature/Organic
+- **Subcategory**: Flora Sentinel
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Dense Jungles
 - **Rarity**: Common
 - **Discovery**: Documented by botanist Dr. Ivy Green during the Emerald Expedition of 2024
 

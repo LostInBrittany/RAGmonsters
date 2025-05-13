@@ -1,8 +1,10 @@
 # Mechabyte
 
 ## Basic Information
-- **Category**: Techno-Organic Hybrid
-- **Habitat**: Abandoned Technology Centers
+- **Category**: Construct/Artificial
+- **Subcategory**: Techno-Organic Hybrid
+- **Habitat**: Urban/Constructed
+- **Biome**: Abandoned Technology Centers
 - **Rarity**: Rare
 - **Discovery**: First documented in 2024 by cybersecurity expert Alex Circuit in a decommissioned data center
 

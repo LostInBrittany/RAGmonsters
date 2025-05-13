@@ -1,8 +1,10 @@
 # Thunderclaw
 
 ## Basic Information
-- **Category**: Storm Predator
-- **Habitat**: Thunderstorm Plains
+- **Category**: Elemental
+- **Subcategory**: Storm Predator
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Thunderstorm Plains
 - **Rarity**: Rare
 - **Discovery**: First sighted during the Great Lightning Storm of 2025 by storm chaser Marcus Bolt
 

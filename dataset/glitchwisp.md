@@ -1,8 +1,10 @@
 # Glitchwisp
 
 ## Basic Information
-- **Category**: Digital Anomaly
-- **Habitat**: Data Networks
+- **Category**: Anomaly/Phenomenon
+- **Subcategory**: Digital Anomaly
+- **Habitat**: Energy/Acoustic
+- **Biome**: Data Networks
 - **Rarity**: Very Rare
 - **Discovery**: First detected in 2025 by cybersecurity expert Dr. Pixel during investigation of unusual network phenomena
 

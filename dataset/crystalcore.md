@@ -1,8 +1,10 @@
 # Crystalcore
 
 ## Basic Information
-- **Category**: Mineral Construct
-- **Habitat**: Crystal Caverns
+- **Category**: Construct/Artificial
+- **Subcategory**: Mineral Construct
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Crystal Caverns
 - **Rarity**: Uncommon
 - **Discovery**: Discovered in 2023 by gemologist Petra Quartz during a deep cave expedition
 

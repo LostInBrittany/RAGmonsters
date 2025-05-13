@@ -1,8 +1,10 @@
 # Sandshifter
 
 ## Basic Information
-- **Category**: Desert Entity
-- **Habitat**: Vast Deserts
+- **Category**: Nature/Organic
+- **Subcategory**: Desert Entity
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Vast Deserts
 - **Rarity**: Common
 - **Discovery**: First documented in 2023 by geologist Dr. Dune Walker during an expedition to the Great Shifting Sands
 

@@ -1,8 +1,10 @@
 # Toxitangle
 
 ## Basic Information
-- **Category**: Toxic Flora
-- **Habitat**: Polluted Swamps
+- **Category**: Nature/Organic
+- **Subcategory**: Toxic Flora
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Polluted Swamps
 - **Rarity**: Uncommon
 - **Discovery**: Identified in 2024 by environmental scientist Dr. Mira Sludge while investigating industrial waste sites
 

@@ -1,8 +1,10 @@
 # Lumiglow
 
 ## Basic Information
-- **Category**: Light Elemental
-- **Habitat**: Aurora Fields
+- **Category**: Elemental
+- **Subcategory**: Light Elemental
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Aurora Fields
 - **Rarity**: Uncommon
 - **Discovery**: First documented in 2024 by physicist Dr. Ray Prism during a study of unusual light phenomena
 

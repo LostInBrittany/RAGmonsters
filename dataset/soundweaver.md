@@ -1,8 +1,10 @@
 # Soundweaver
 
 ## Basic Information
-- **Category**: Sonic Entity
-- **Habitat**: Echo Canyons
+- **Category**: Spirit/Ethereal
+- **Subcategory**: Sonic Entity
+- **Habitat**: Energy/Acoustic
+- **Biome**: Echo Canyons
 - **Rarity**: Rare
 - **Discovery**: First recorded in 2024 by acoustician Dr. Melody Harmonic during a sound-mapping expedition
 

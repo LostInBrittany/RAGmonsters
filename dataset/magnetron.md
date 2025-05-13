@@ -1,8 +1,10 @@
 # Magnetron
 
 ## Basic Information
-- **Category**: Magnetic Entity
-- **Habitat**: Ferrous Deposits
+- **Category**: Construct/Artificial
+- **Subcategory**: Magnetic Entity
+- **Habitat**: Urban/Constructed
+- **Biome**: Ferrous Deposits
 - **Rarity**: Uncommon
 - **Discovery**: First documented in 2024 by geophysicist Dr. Ferris Iron during magnetic anomaly research
 

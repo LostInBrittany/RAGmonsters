@@ -1,8 +1,10 @@
 # Magmawraith
 
 ## Basic Information
-- **Category**: Volcanic Entity
-- **Habitat**: Active Volcanoes
+- **Category**: Elemental
+- **Subcategory**: Volcanic Entity
+- **Habitat**: Volcanic/Geothermal
+- **Biome**: Active Volcanoes
 - **Rarity**: Rare
 - **Discovery**: First documented in 2024 by volcanologist Dr. Ember Ash during an unexpected eruption
 

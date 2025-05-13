@@ -1,8 +1,10 @@
 # Vitalspirit
 
 ## Basic Information
-- **Category**: Life Force Entity
-- **Habitat**: Biodiversity Hotspots
+- **Category**: Spirit/Ethereal
+- **Subcategory**: Life Force Entity
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Biodiversity Hotspots
 - **Rarity**: Very Rare
 - **Discovery**: First observed in 2025 by biologist Dr. Vita Bloom during research in pristine rainforest ecosystems
 

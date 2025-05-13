@@ -1,8 +1,10 @@
 # Frostbite
 
 ## Basic Information
-- **Category**: Cryo Entity
-- **Habitat**: Arctic Wastelands
+- **Category**: Elemental
+- **Subcategory**: Cryo Entity
+- **Habitat**: Terrestrial Wilderness
+- **Biome**: Arctic Wastelands
 - **Rarity**: Common
 - **Discovery**: First documented in 2023 by polar explorer Frost Whitewind during an expedition to the Eternal Ice
 

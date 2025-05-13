@@ -1,8 +1,10 @@
 # Quantumflux
 
 ## Basic Information
-- **Category**: Quantum Anomaly
-- **Habitat**: Probability Nexuses
+- **Category**: Anomaly/Phenomenon
+- **Subcategory**: Quantum Anomaly
+- **Habitat**: Extra-dimensional
+- **Biome**: Probability Nexuses
 - **Rarity**: Extremely Rare
 - **Discovery**: First detected in 2025 by quantum physicist Dr. Heisen Berg during a particle superposition experiment
 

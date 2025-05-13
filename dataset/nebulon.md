@@ -1,8 +1,10 @@
 # Nebulon
 
 ## Basic Information
-- **Category**: Cosmic Gas Entity
-- **Habitat**: Nebula Clouds
+- **Category**: Celestial/Cosmic
+- **Subcategory**: Cosmic Gas Entity
+- **Habitat**: Extra-dimensional
+- **Biome**: Nebula Clouds
 - **Rarity**: Extremely Rare
 - **Discovery**: First observed in 2025 by astrophysicist Dr. Nova Stardust using specialized spectral imaging
 

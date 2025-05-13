@@ -22,7 +22,9 @@ Each RAGmonster is described in its own markdown file with a consistent structur
 
 ## Basic Information
 - Category
-- Habitat
+- Subcategory
+- Habitat  <!-- Broad environment, e.g. Aquatic, Terrestrial Wilderness, Volcanic/Geothermal, Urban/Constructed, Extra-dimensional, Energy/Acoustic -->
+- Biome    <!-- Specific locale, e.g. Oceanic Trenches, Ancient Forests, Active Volcanoes, Data Networks -->
 - Rarity
 - Discovery
 
@@ -40,7 +42,6 @@ Each RAGmonster is described in its own markdown file with a consistent structur
 ## Affinities
 - Strong Against
 - Weak Against
-- Neutral
 
 ## Behavior and Ecology
 [Description of behavior patterns and ecological role]
