@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Lumiglow', 
-    'Light Elemental', 
-    'Aurora Fields', 
+    'Lumiglow',
+    'Elemental',
+    'Light Elemental',
+    'Terrestrial Wilderness',
+    'Aurora Fields',
     'Uncommon', 
     'First documented in 2024 by physicist Dr. Ray Prism during a study of unusual light phenomena',
     1.6, 

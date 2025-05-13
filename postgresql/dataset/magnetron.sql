@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Magnetron', 
-    'Magnetic Entity', 
-    'Ferrous Deposits', 
+    'Magnetron',
+    'Construct/Artificial',
+    'Magnetic Entity',
+    'Urban/Constructed',
+    'Ferrous Deposits',
     'Uncommon', 
     'First documented in 2024 by geophysicist Dr. Ferris Iron during magnetic anomaly research',
     2.2, 

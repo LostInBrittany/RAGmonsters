@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Echospecter', 
-    'Resonance Entity', 
-    'Acoustic Anomalies', 
+    'Echospecter',
+    'Anomaly/Phenomenon',
+    'Resonance Entity',
+    'Energy/Acoustic',
+    'Acoustic Anomalies',
     'Rare', 
     'First detected in 2024 by acoustician Dr. Echo Chamber during research on architectural acoustics',
     2.0, 

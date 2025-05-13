@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Vinelash', 
-    'Flora Sentinel', 
-    'Dense Jungles', 
+    'Vinelash',
+    'Nature/Organic',
+    'Flora Sentinel',
+    'Terrestrial Wilderness',
+    'Dense Jungles',
     'Common', 
     'Documented by botanist Dr. Ivy Green during the Emerald Expedition of 2024',
     2.5, 

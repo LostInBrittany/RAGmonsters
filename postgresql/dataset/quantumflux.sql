@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Quantumflux', 
-    'Quantum Anomaly', 
-    'Probability Nexuses', 
+    'Quantumflux',
+    'Anomaly/Phenomenon',
+    'Quantum Anomaly',
+    'Extra-dimensional',
+    'Probability Nexuses',
     'Extremely Rare', 
     'First detected in 2025 by quantum physicist Dr. Heisen Berg during a particle superposition experiment',
     0, 

@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Soundweaver', 
-    'Sonic Entity', 
-    'Echo Canyons', 
+    'Soundweaver',
+    'Spirit/Ethereal',
+    'Sonic Entity',
+    'Energy/Acoustic',
+    'Echo Canyons',
     'Rare', 
     'First recorded in 2024 by acoustician Dr. Melody Harmonic during a sound-mapping expedition',
     1.9, 

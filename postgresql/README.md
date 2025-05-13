@@ -13,7 +13,7 @@ This directory contains SQL scripts to create and populate a PostgreSQL database
 
 The database is structured with the following tables:
 
-1. **monsters**: Main table with basic monster information
+1. **monsters**: Main table with basic monster information. **Note:** The schema has been updated to split the previous `category` column into `category` and `subcategory`, and the previous `habitat` column into `habitat` and `biome`. All monster insert files have been updated to match this structure.
 2. **questworlds_stats**: Table linking monsters to their QuestWorlds game statistics
 3. **keywords**: Table for monster keywords/abilities with ratings
 4. **abilities**: Table for specific abilities within each keyword category
@@ -54,11 +54,11 @@ psql -d ragmonsters -f dataset/abyssalurk.sql
 Here are some example SQL queries you can run against the database:
 
 ```sql
--- Get all monsters with their categories
-SELECT name, category FROM monsters ORDER BY name;
+-- Get all monsters with their categories and subcategories
+SELECT name, category, subcategory FROM monsters ORDER BY name;
 
--- Find monsters by habitat
-SELECT name FROM monsters WHERE habitat LIKE '%Mountain%';
+-- Find monsters by habitat and biome
+SELECT name FROM monsters WHERE habitat LIKE '%Mountain%' OR biome LIKE '%Mountain%';
 
 -- Get all keywords for a specific monster
 SELECT k.keyword_name, k.rating

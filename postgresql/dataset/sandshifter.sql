@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Sandshifter', 
-    'Desert Entity', 
-    'Vast Deserts', 
+    'Sandshifter',
+    'Nature/Organic',
+    'Desert Entity',
+    'Terrestrial Wilderness',
+    'Vast Deserts',
     'Common', 
     'First documented in 2023 by geologist Dr. Dune Walker during an expedition to the Great Shifting Sands',
     1.9, 

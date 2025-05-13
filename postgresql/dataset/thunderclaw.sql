@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Thunderclaw', 
-    'Storm Predator', 
-    'Thunderstorm Plains', 
+    'Thunderclaw',
+    'Elemental',
+    'Storm Predator',
+    'Terrestrial Wilderness',
+    'Thunderstorm Plains',
     'Rare', 
     'First sighted during the Great Lightning Storm of 2025 by storm chaser Marcus Bolt',
     2.1, 

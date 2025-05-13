@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Magmawraith', 
-    'Volcanic Entity', 
-    'Active Volcanoes', 
+    'Magmawraith',
+    'Elemental',
+    'Volcanic Entity',
+    'Volcanic/Geothermal',
+    'Active Volcanoes',
     'Rare', 
     'First documented in 2024 by volcanologist Dr. Ember Ash during an unexpected eruption',
     2.7, 

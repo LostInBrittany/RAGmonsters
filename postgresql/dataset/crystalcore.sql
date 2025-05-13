@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Crystalcore', 
-    'Mineral Construct', 
-    'Crystal Caverns', 
+    'Crystalcore',
+    'Construct/Artificial',
+    'Mineral Construct',
+    'Terrestrial Wilderness',
+    'Crystal Caverns',
     'Uncommon', 
     'Discovered in 2023 by gemologist Petra Quartz during a deep cave expedition',
     1.9, 

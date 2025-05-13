@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Frostbite', 
-    'Cryo Entity', 
-    'Arctic Wastelands', 
+    'Frostbite',
+    'Elemental',
+    'Cryo Entity',
+    'Terrestrial Wilderness',
+    'Arctic Wastelands',
     'Common', 
     'First documented in 2023 by polar explorer Frost Whitewind during an expedition to the Eternal Ice',
     2.4, 

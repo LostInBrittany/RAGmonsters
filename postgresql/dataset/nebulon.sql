@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Nebulon', 
-    'Cosmic Gas Entity', 
-    'Nebula Clouds', 
+    'Nebulon',
+    'Celestial/Cosmic',
+    'Cosmic Gas Entity',
+    'Extra-dimensional',
+    'Nebula Clouds',
     'Extremely Rare', 
     'First observed in 2025 by astrophysicist Dr. Nova Stardust using specialized spectral imaging',
     3.0, 

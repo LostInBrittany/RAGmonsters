@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Shadowrift', 
-    'Void Entity', 
-    'Dark Dimensions', 
+    'Shadowrift',
+    'Celestial/Cosmic',
+    'Void Entity',
+    'Extra-dimensional',
+    'Dark Dimensions',
     'Very Rare', 
     'First documented by paranormal researcher Dr. Nyx Umbra in 2025 during the Midnight Eclipse',
     2.5, 

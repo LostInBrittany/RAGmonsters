@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Terrashift', 
-    'Geological Entity', 
-    'Tectonic Boundaries', 
+    'Terrashift',
+    'Nature/Organic',
+    'Geological Entity',
+    'Terrestrial Wilderness',
+    'Tectonic Boundaries',
     'Rare', 
     'First observed in 2025 by geologist Dr. Stone during an unusual seismic event',
     3.5, 

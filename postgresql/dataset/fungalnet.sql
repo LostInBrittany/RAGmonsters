@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Fungalnet', 
-    'Mycelial Collective', 
-    'Ancient Forests', 
+    'Fungalnet',
+    'Nature/Organic',
+    'Mycelial Collective',
+    'Terrestrial Wilderness',
+    'Ancient Forests',
     'Uncommon', 
     'First identified in 2023 by mycologist Dr. Spore during research on fungal communication networks',
     3.0, 

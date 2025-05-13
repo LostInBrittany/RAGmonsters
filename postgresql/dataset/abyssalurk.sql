@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Abyssalurk', 
-    'Deep Sea Entity', 
-    'Oceanic Trenches', 
+    'Abyssalurk',
+    'Aquatic',
+    'Deep Sea Entity',
+    'Aquatic',
+    'Oceanic Trenches',
     'Rare', 
     'First documented in 2024 by marine biologist Dr. Marina Depths during a deep-sea expedition',
     3.2, 

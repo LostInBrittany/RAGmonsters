@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Graviton', 
-    'Gravitational Anomaly', 
-    'Gravity Wells', 
+    'Graviton',
+    'Anomaly/Phenomenon',
+    'Gravitational Anomaly',
+    'Extra-dimensional',
+    'Gravity Wells',
     'Very Rare', 
     'First detected in 2025 by astrophysicist Dr. Newton Mass during gravitational wave research',
     2.2, 

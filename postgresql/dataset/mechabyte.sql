@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Mechabyte', 
-    'Techno-Organic Hybrid', 
-    'Abandoned Technology Centers', 
+    'Mechabyte',
+    'Construct/Artificial',
+    'Techno-Organic Hybrid',
+    'Urban/Constructed',
+    'Abandoned Technology Centers',
     'Rare', 
     'First documented in 2024 by cybersecurity expert Alex Circuit in a decommissioned data center',
     1.8, 

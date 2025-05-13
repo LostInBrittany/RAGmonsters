@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Flameburst', 
-    'Elemental Beast', 
-    'Volcanic Mountains', 
+    'Flameburst',
+    'Elemental',
+    'Elemental Beast',
+    'Volcanic/Geothermal',
+    'Volcanic Mountains',
     'Rare', 
     'First documented in the Ember Peaks by explorer Jax Fireheart in 2024',
     2.3, 

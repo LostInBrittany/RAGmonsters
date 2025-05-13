@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Windwhisper', 
-    'Aerial Spirit', 
-    'High Mountain Peaks', 
+    'Windwhisper',
+    'Spirit/Ethereal',
+    'Aerial Spirit',
+    'Terrestrial Wilderness',
+    'High Mountain Peaks',
     'Uncommon', 
     'First documented by mountaineer Zephyr Gale in 2024 at the summit of Mount Skyreach',
     2.2, 

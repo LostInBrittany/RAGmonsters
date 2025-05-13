@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Mirrormorph', 
-    'Reflective Entity', 
-    'Mirror Realms', 
+    'Mirrormorph',
+    'Construct/Artificial',
+    'Reflective Entity',
+    'Extra-dimensional',
+    'Mirror Realms',
     'Rare', 
     'First encountered in 2024 by optical researcher Dr. Glass during experiments with perfect reflective surfaces',
     0, 

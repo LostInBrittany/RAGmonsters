@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Dreamweaver', 
-    'Subconscious Entity', 
-    'Dream Realms', 
+    'Dreamweaver',
+    'Anomaly/Phenomenon',
+    'Subconscious Entity',
+    'Extra-dimensional',
+    'Dream Realms',
     'Very Rare', 
     'First documented in 2025 by neurologist Dr. Somnia during experimental dream-sharing research',
     2.0, 

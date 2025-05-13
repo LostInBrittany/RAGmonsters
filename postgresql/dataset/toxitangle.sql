@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Toxitangle', 
-    'Toxic Flora', 
-    'Polluted Swamps', 
+    'Toxitangle',
+    'Nature/Organic',
+    'Toxic Flora',
+    'Terrestrial Wilderness',
+    'Polluted Swamps',
     'Uncommon', 
     'Identified in 2024 by environmental scientist Dr. Mira Sludge while investigating industrial waste sites',
     1.7, 

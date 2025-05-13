@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Aquafrost', 
-    'Elemental Hybrid', 
-    'Glacial Lakes', 
+    'Aquafrost',
+    'Elemental',
+    'Elemental Hybrid',
+    'Aquatic',
+    'Glacial Lakes',
     'Uncommon', 
     'Discovered in 2023 by marine biologist Dr. Elena Winters during an expedition to the Frozen Depths',
     1.8, 

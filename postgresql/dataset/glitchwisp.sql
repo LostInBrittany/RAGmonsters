@@ -3,13 +3,15 @@
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
-    'Glitchwisp', 
-    'Digital Anomaly', 
-    'Data Networks', 
+    'Glitchwisp',
+    'Anomaly/Phenomenon',
+    'Digital Anomaly',
+    'Energy/Acoustic',
+    'Data Networks',
     'Very Rare', 
     'First detected in 2025 by cybersecurity expert Dr. Pixel during investigation of unusual network phenomena',
     1.9, 
