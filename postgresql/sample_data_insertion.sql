@@ -1,14 +1,49 @@
 -- RAGmonsters Sample Data Insertion
--- This file contains sample data for the Abyssalurk monster
+-- This file contains reference data for categories/subcategories and sample data for monsters
+
+-- Set search path to ragmonsters schema
+SET search_path TO ragmonsters, public;
+
+-- Insert reference data for categories
+INSERT INTO categories (category_name, description) VALUES
+('Elemental', 'Creatures composed of or strongly connected to fundamental forces and elements'),
+('Construct/Artificial', 'Created beings including mechanical constructs and hybrid entities'),
+('Anomaly/Phenomenon', 'Unusual entities that defy natural laws or exist in digital spaces'),
+('Nature/Organic', 'Living creatures derived from natural processes and organic matter'),
+('Celestial/Cosmic', 'Beings connected to cosmic forces and celestial phenomena'),
+('Spirit/Ethereal', 'Ethereal entities with spiritual or intangible characteristics');
+
+-- Insert reference data for subcategories
+INSERT INTO subcategories (subcategory_name, category_id, description) VALUES
+-- Elemental subcategories
+('Energy Entity', (SELECT category_id FROM categories WHERE category_name = 'Elemental'), 'Beings of pure energy and plasma'),
+('Elemental Being', (SELECT category_id FROM categories WHERE category_name = 'Elemental'), 'Traditional elemental creatures of fire, water, earth, air'),
+('Environmental Entity', (SELECT category_id FROM categories WHERE category_name = 'Elemental'), 'Creatures that embody environmental forces and conditions'),
+-- Construct/Artificial subcategories
+('Construct', (SELECT category_id FROM categories WHERE category_name = 'Construct/Artificial'), 'Mechanical and artificially created beings'),
+('Hybrid Entity', (SELECT category_id FROM categories WHERE category_name = 'Construct/Artificial'), 'Beings that combine organic and artificial elements'),
+-- Anomaly/Phenomenon subcategories
+('Anomaly', (SELECT category_id FROM categories WHERE category_name = 'Anomaly/Phenomenon'), 'Entities that bend or break natural laws'),
+('Digital Entity', (SELECT category_id FROM categories WHERE category_name = 'Anomaly/Phenomenon'), 'Beings that exist in digital or dream realms'),
+-- Nature/Organic subcategories
+('Flora Entity', (SELECT category_id FROM categories WHERE category_name = 'Nature/Organic'), 'Plant-based creatures'),
+('Geological Entity', (SELECT category_id FROM categories WHERE category_name = 'Nature/Organic'), 'Earth and mineral-based creatures'),
+('Collective Entity', (SELECT category_id FROM categories WHERE category_name = 'Nature/Organic'), 'Creatures that exist as collective organisms'),
+-- Celestial/Cosmic subcategories
+('Cosmic Entity', (SELECT category_id FROM categories WHERE category_name = 'Celestial/Cosmic'), 'Beings connected to cosmic forces and space'),
+-- Spirit/Ethereal subcategories
+('Ethereal Entity', (SELECT category_id FROM categories WHERE category_name = 'Spirit/Ethereal'), 'Spiritual beings with intangible characteristics');
 
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, subcategory_id, monster_type, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
     'Abyssalurk', 
+    (SELECT subcategory_id FROM subcategories WHERE subcategory_name = 'Environmental Entity'),
     'Deep Sea Entity', 
+    'Aquatic',
     'Oceanic Trenches', 
     'Rare', 
     'First documented in 2024 by marine biologist Dr. Marina Depths during a deep-sea expedition',
@@ -85,12 +120,14 @@ END $$;
 
 -- Add another monster: Flameburst
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, subcategory_id, monster_type, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
     'Flameburst', 
+    (SELECT subcategory_id FROM subcategories WHERE subcategory_name = 'Elemental Being'),
     'Elemental Beast', 
+    'Terrestrial Wilderness',
     'Volcanic Mountains', 
     'Rare', 
     'First documented in the Ember Peaks by explorer Jax Fireheart in 2024',
@@ -162,3 +199,51 @@ BEGIN
     (monster_id_val, 'Water creatures', -5),
     (monster_id_val, 'Stone creatures', -5);
 END $$;
+
+-- Sample queries demonstrating normalized structure
+/*
+-- Query to get all monsters with their category and subcategory information
+SELECT 
+    m.name,
+    c.category_name,
+    s.subcategory_name,
+    m.monster_type,
+    m.habitat,
+    m.biome
+FROM monsters m
+    JOIN subcategories s ON m.subcategory_id = s.subcategory_id
+    JOIN categories c ON s.category_id = c.category_id
+ORDER BY c.category_name, s.subcategory_name, m.name;
+
+-- Query to get all monsters in a specific category
+SELECT 
+    m.name,
+    s.subcategory_name,
+    m.monster_type
+FROM monsters m
+    JOIN subcategories s ON m.subcategory_id = s.subcategory_id
+    JOIN categories c ON s.category_id = c.category_id
+WHERE c.category_name = 'Elemental'
+ORDER BY s.subcategory_name, m.name;
+
+-- Query to count monsters by category
+SELECT 
+    c.category_name,
+    COUNT(m.monster_id) as monster_count
+FROM categories c
+    LEFT JOIN subcategories s ON c.category_id = s.category_id
+    LEFT JOIN monsters m ON s.subcategory_id = m.subcategory_id
+GROUP BY c.category_id, c.category_name
+ORDER BY monster_count DESC, c.category_name;
+
+-- Query to get subcategory distribution
+SELECT 
+    c.category_name,
+    s.subcategory_name,
+    COUNT(m.monster_id) as monster_count
+FROM categories c
+    JOIN subcategories s ON c.category_id = s.category_id
+    LEFT JOIN monsters m ON s.subcategory_id = m.subcategory_id
+GROUP BY c.category_id, c.category_name, s.subcategory_id, s.subcategory_name
+ORDER BY c.category_name, s.subcategory_name;
+*/

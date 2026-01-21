@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Elemental
-- **Subcategory**: Cryo Entity
+- **Subcategory**: Environmental Entity
+- **Monster Type**: Cryo Entity
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Arctic Wastelands
 - **Rarity**: Common

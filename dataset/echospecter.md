@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Anomaly/Phenomenon
-- **Subcategory**: Resonance Entity
+- **Subcategory**: Digital Entity
+- **Monster Type**: Resonance Entity
 - **Habitat**: Energy/Acoustic
 - **Biome**: Acoustic Anomalies
 - **Rarity**: Rare

@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Spirit/Ethereal
-- **Subcategory**: Life Force Entity
+- **Subcategory**: Ethereal Entity
+- **Monster Type**: Life Force Entity
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Biodiversity Hotspots
 - **Rarity**: Very Rare

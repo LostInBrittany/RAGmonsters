@@ -13,7 +13,7 @@ This directory contains SQL scripts to create and populate a PostgreSQL database
 
 The database is structured with the following tables:
 
-1. **monsters**: Main table with basic monster information. **Note:** The schema has been updated to split the previous `category` column into `category` and `subcategory`, and the previous `habitat` column into `habitat` and `biome`. All monster insert files have been updated to match this structure.
+1. **monsters**: Main table with basic monster information. 
 2. **questworlds_stats**: Table linking monsters to their QuestWorlds game statistics
 3. **keywords**: Table for monster keywords/abilities with ratings
 4. **abilities**: Table for specific abilities within each keyword category
@@ -36,17 +36,17 @@ The database is structured with the following tables:
 
 2. Import the schema:
    ```
-   psql -d ragmonsters -f ragmonsters_schema.sql
+   psql -d ragmonsters -f postgresql/ragmonsters_schema.sql
    ```
 
 3. Import all monster data:
    ```
-   psql -d ragmonsters -f import_all_monsters.sql
+   psql -d ragmonsters -f postgresql/import_all_monsters.sql
    ```
 
 Alternatively, you can import individual monsters:
 ```
-psql -d ragmonsters -f dataset/abyssalurk.sql
+psql -d ragmonsters -f postgresql/dataset/abyssalurk.sql
 ```
 
 ## Example Queries
@@ -55,29 +55,33 @@ Here are some example SQL queries you can run against the database:
 
 ```sql
 -- Get all monsters with their categories and subcategories
-SELECT name, category, subcategory FROM monsters ORDER BY name;
+SELECT m.name, c.category_name, sc.subcategory_name
+FROM ragmonsters.monsters m
+JOIN ragmonsters.subcategories sc ON m.subcategory_id = sc.subcategory_id
+JOIN ragmonsters.categories c ON sc.category_id = c.category_id
+ORDER BY m.name;
 
 -- Find monsters by habitat and biome
-SELECT name FROM monsters WHERE habitat LIKE '%Mountain%' OR biome LIKE '%Mountain%';
+SELECT name FROM ragmonsters.monsters WHERE habitat LIKE '%Mountain%' OR biome LIKE '%Mountain%';
 
 -- Get all keywords for a specific monster
 SELECT k.keyword_name, k.rating
-FROM keywords k
-JOIN questworlds_stats qs ON k.stats_id = qs.stats_id
-JOIN monsters m ON qs.monster_id = m.monster_id
+FROM ragmonsters.keywords k
+JOIN ragmonsters.questworlds_stats qs ON k.stats_id = qs.stats_id
+JOIN ragmonsters.monsters m ON qs.monster_id = m.monster_id
 WHERE m.name = 'Abyssalurk';
 
 -- Find monsters strong against fire creatures
 SELECT m.name
-FROM monsters m
-JOIN augments a ON m.monster_id = a.monster_id
+FROM ragmonsters.monsters m
+JOIN ragmonsters.augments a ON m.monster_id = a.monster_id
 WHERE a.target_name LIKE '%Fire%';
 
 -- Get monsters with highest keyword ratings
 SELECT m.name, k.keyword_name, k.rating
-FROM monsters m
-JOIN questworlds_stats qs ON m.monster_id = qs.monster_id
-JOIN keywords k ON qs.stats_id = k.stats_id
+FROM ragmonsters.monsters m
+JOIN ragmonsters.questworlds_stats qs ON m.monster_id = qs.monster_id
+JOIN ragmonsters.keywords k ON qs.stats_id = k.stats_id
 WHERE k.rating >= 19
 ORDER BY k.rating DESC;
 ```
@@ -205,7 +209,11 @@ psql $POSTGRESQL_ADDON_URI
 Once connected, run:
 
 ```sql
-SELECT name, category FROM monsters ORDER BY name;
+SELECT m.name, c.category_name
+FROM ragmonsters.monsters m
+JOIN ragmonsters.subcategories sc ON m.subcategory_id = sc.subcategory_id
+JOIN ragmonsters.categories c ON sc.category_id = c.category_id
+ORDER BY m.name;
 ```
 
 You should see a list of all 30 RAGmonsters with their categories.

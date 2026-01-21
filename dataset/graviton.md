@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Anomaly/Phenomenon
-- **Subcategory**: Gravitational Anomaly
+- **Subcategory**: Anomaly
+- **Monster Type**: Gravitational Anomaly
 - **Habitat**: Extra-dimensional
 - **Biome**: Gravity Wells
 - **Rarity**: Very Rare

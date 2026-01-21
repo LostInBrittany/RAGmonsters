@@ -4,6 +4,9 @@
 -- First, create the database schema if it doesn't exist
 \i ragmonsters_schema.sql
 
+-- Set search path to ragmonsters schema for all subsequent operations
+SET search_path TO ragmonsters, public;
+
 -- Clear existing data if needed
 -- Uncomment these lines if you want to start with a clean database
 -- DELETE FROM hindrances;
@@ -13,6 +16,43 @@
 -- DELETE FROM keywords;
 -- DELETE FROM questworlds_stats;
 -- DELETE FROM monsters;
+-- DELETE FROM subcategories;
+-- DELETE FROM categories;
+
+-- Insert reference data (categories and subcategories)
+\echo 'Inserting reference data...'
+
+-- Insert categories
+INSERT INTO categories (category_name, description) VALUES
+('Elemental', 'Creatures composed of or strongly connected to fundamental forces and elements'),
+('Construct/Artificial', 'Created beings including mechanical constructs and hybrid entities'),
+('Anomaly/Phenomenon', 'Unusual entities that defy natural laws or exist in digital spaces'),
+('Nature/Organic', 'Living creatures derived from natural processes and organic matter'),
+('Celestial/Cosmic', 'Beings connected to cosmic forces and celestial phenomena'),
+('Spirit/Ethereal', 'Ethereal entities with spiritual or intangible characteristics')
+ON CONFLICT (category_name) DO NOTHING;
+
+-- Insert subcategories
+INSERT INTO subcategories (subcategory_name, category_id, description) VALUES
+-- Elemental subcategories
+('Energy Entity', (SELECT category_id FROM categories WHERE category_name = 'Elemental'), 'Beings of pure energy and plasma'),
+('Elemental Being', (SELECT category_id FROM categories WHERE category_name = 'Elemental'), 'Traditional elemental creatures of fire, water, earth, air'),
+('Environmental Entity', (SELECT category_id FROM categories WHERE category_name = 'Elemental'), 'Creatures that embody environmental forces and conditions'),
+-- Construct/Artificial subcategories
+('Construct', (SELECT category_id FROM categories WHERE category_name = 'Construct/Artificial'), 'Mechanical and artificially created beings'),
+('Hybrid Entity', (SELECT category_id FROM categories WHERE category_name = 'Construct/Artificial'), 'Beings that combine organic and artificial elements'),
+-- Anomaly/Phenomenon subcategories
+('Anomaly', (SELECT category_id FROM categories WHERE category_name = 'Anomaly/Phenomenon'), 'Entities that bend or break natural laws'),
+('Digital Entity', (SELECT category_id FROM categories WHERE category_name = 'Anomaly/Phenomenon'), 'Beings that exist in digital or dream realms'),
+-- Nature/Organic subcategories
+('Flora Entity', (SELECT category_id FROM categories WHERE category_name = 'Nature/Organic'), 'Plant-based creatures'),
+('Geological Entity', (SELECT category_id FROM categories WHERE category_name = 'Nature/Organic'), 'Earth and mineral-based creatures'),
+('Collective Entity', (SELECT category_id FROM categories WHERE category_name = 'Nature/Organic'), 'Creatures that exist as collective organisms'),
+-- Celestial/Cosmic subcategories
+('Cosmic Entity', (SELECT category_id FROM categories WHERE category_name = 'Celestial/Cosmic'), 'Beings connected to cosmic forces and space'),
+-- Spirit/Ethereal subcategories
+('Ethereal Entity', (SELECT category_id FROM categories WHERE category_name = 'Spirit/Ethereal'), 'Spiritual beings with intangible characteristics')
+ON CONFLICT (subcategory_name) DO NOTHING;
 
 -- Import each monster
 \echo 'Importing monsters...'

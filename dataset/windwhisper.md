@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Spirit/Ethereal
-- **Subcategory**: Aerial Spirit
+- **Subcategory**: Ethereal Entity
+- **Monster Type**: Aerial Spirit
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: High Mountain Peaks
 - **Rarity**: Uncommon

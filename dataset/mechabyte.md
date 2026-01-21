@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Construct/Artificial
-- **Subcategory**: Techno-Organic Hybrid
+- **Subcategory**: Hybrid Entity
+- **Monster Type**: Techno-Organic Hybrid
 - **Habitat**: Urban/Constructed
 - **Biome**: Abandoned Technology Centers
 - **Rarity**: Rare

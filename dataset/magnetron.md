@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Construct/Artificial
-- **Subcategory**: Magnetic Entity
+- **Subcategory**: Construct
+- **Monster Type**: Magnetic Entity
 - **Habitat**: Urban/Constructed
 - **Biome**: Ferrous Deposits
 - **Rarity**: Uncommon

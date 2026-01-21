@@ -1,12 +1,33 @@
 -- RAGmonsters Database Schema
 -- PostgreSQL schema for the RAGmonsters dataset
 
+-- Drop and recreate the ragmonsters schema
+DROP SCHEMA IF EXISTS ragmonsters CASCADE;
+CREATE SCHEMA ragmonsters;
+SET search_path TO ragmonsters, public;
+
+-- Categories table for normalized category structure
+CREATE TABLE categories (
+    category_id SERIAL PRIMARY KEY,
+    category_name VARCHAR(100) NOT NULL UNIQUE,
+    description TEXT
+);
+
+-- Subcategories table for normalized subcategory structure
+CREATE TABLE subcategories (
+    subcategory_id SERIAL PRIMARY KEY,
+    subcategory_name VARCHAR(100) NOT NULL UNIQUE,
+    category_id INTEGER NOT NULL REFERENCES categories(category_id),
+    description TEXT,
+    CONSTRAINT fk_subcategory_category FOREIGN KEY (category_id) REFERENCES categories(category_id)
+);
+
 -- Main monsters table
 CREATE TABLE monsters (
     monster_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    category VARCHAR(100) NOT NULL,
-    subcategory VARCHAR(100) NOT NULL,
+    subcategory_id INTEGER NOT NULL REFERENCES subcategories(subcategory_id),
+    monster_type VARCHAR(100) NOT NULL,
     habitat VARCHAR(100) NOT NULL,
     biome VARCHAR(100) NOT NULL,
     rarity VARCHAR(50) NOT NULL,
@@ -80,7 +101,11 @@ CREATE TABLE hindrances (
 
 -- Create indexes for performance
 CREATE INDEX idx_monster_name ON monsters(name);
-CREATE INDEX idx_monster_category ON monsters(category);
+CREATE INDEX idx_monster_subcategory_id ON monsters(subcategory_id);
+CREATE INDEX idx_subcategory_category_id ON subcategories(category_id);
+CREATE INDEX idx_category_name ON categories(category_name);
+CREATE INDEX idx_subcategory_name ON subcategories(subcategory_name);
+CREATE INDEX idx_monster_type ON monsters(monster_type);
 CREATE INDEX idx_keyword_name ON keywords(keyword_name);
 CREATE INDEX idx_ability_name ON abilities(ability_name);
 CREATE INDEX idx_flaw_name ON flaws(flaw_name);
@@ -89,14 +114,18 @@ CREATE INDEX idx_hindrance_target ON hindrances(target_name);
 
 -- Example data insertion (commented out)
 /*
--- Insert monster data for Abyssalurk
+-- First insert categories and subcategories (see sample_data_insertion.sql for full reference data)
+
+-- Insert monster data for Abyssalurk using normalized structure
 INSERT INTO monsters (
-    name, category, habitat, rarity, discovery, height, weight, appearance, 
+    name, subcategory_id, monster_type, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
     'Abyssalurk', 
+    (SELECT subcategory_id FROM subcategories WHERE subcategory_name = 'Environmental Entity'),
     'Deep Sea Entity', 
+    'Aquatic',
     'Oceanic Trenches', 
     'Rare', 
     'First documented in 2024 by marine biologist Dr. Marina Depths during a deep-sea expedition',

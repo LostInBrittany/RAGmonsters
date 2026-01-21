@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Nature/Organic
-- **Subcategory**: Mycelial Collective
+- **Subcategory**: Collective Entity
+- **Monster Type**: Mycelial Collective
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Ancient Forests
 - **Rarity**: Uncommon

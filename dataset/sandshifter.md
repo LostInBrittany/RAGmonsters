@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Nature/Organic
-- **Subcategory**: Desert Entity
+- **Subcategory**: Geological Entity
+- **Monster Type**: Desert Entity
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Vast Deserts
 - **Rarity**: Common

@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Elemental
-- **Subcategory**: Volcanic Entity
+- **Subcategory**: Environmental Entity
+- **Monster Type**: Volcanic Entity
 - **Habitat**: Volcanic/Geothermal
 - **Biome**: Active Volcanoes
 - **Rarity**: Rare

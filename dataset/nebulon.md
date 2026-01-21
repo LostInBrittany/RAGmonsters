@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Celestial/Cosmic
-- **Subcategory**: Cosmic Gas Entity
+- **Subcategory**: Cosmic Entity
+- **Monster Type**: Cosmic Gas Entity
 - **Habitat**: Extra-dimensional
 - **Biome**: Nebula Clouds
 - **Rarity**: Extremely Rare

@@ -1,14 +1,17 @@
 -- SQL Insertion statements for Fungalnet
 -- This file contains the SQL commands to insert the Fungalnet monster into the database
 
+-- Set search path to ragmonsters schema
+SET search_path TO ragmonsters, public;
+
 -- Insert monster data
 INSERT INTO monsters (
-    name, category, subcategory, habitat, biome, rarity, discovery, height, weight, appearance, 
+    name, subcategory_id, monster_type, habitat, biome, rarity, discovery, height, weight, appearance, 
     primary_power, secondary_power, special_ability, weakness, 
     behavior_ecology, notable_specimens
 ) VALUES (
     'Fungalnet',
-    'Nature/Organic',
+    (SELECT subcategory_id FROM subcategories WHERE subcategory_name = 'Collective Entity'),
     'Mycelial Collective',
     'Terrestrial Wilderness',
     'Ancient Forests',

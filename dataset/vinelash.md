@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Nature/Organic
-- **Subcategory**: Flora Sentinel
+- **Subcategory**: Flora Entity
+- **Monster Type**: Flora Sentinel
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Dense Jungles
 - **Rarity**: Common

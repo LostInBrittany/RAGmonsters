@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Elemental
-- **Subcategory**: Elemental Beast
+- **Subcategory**: Elemental Being
+- **Monster Type**: Elemental Beast
 - **Habitat**: Volcanic/Geothermal
 - **Biome**: Volcanic Mountains
 - **Rarity**: Rare

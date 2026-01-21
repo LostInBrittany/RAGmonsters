@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Anomaly/Phenomenon
-- **Subcategory**: Subconscious Entity
+- **Subcategory**: Digital Entity
+- **Monster Type**: Subconscious Entity
 - **Habitat**: Extra-dimensional
 - **Biome**: Dream Realms
 - **Rarity**: Very Rare

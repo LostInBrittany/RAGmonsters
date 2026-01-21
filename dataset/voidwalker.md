@@ -3,6 +3,7 @@
 ## Basic Information
 - **Category**: Celestial/Cosmic
 - **Subcategory**: Cosmic Entity
+- **Monster Type**: Cosmic Entity
 - **Habitat**: Extra-dimensional
 - **Biome**: Interstellar Void
 - **Rarity**: Extremely Rare

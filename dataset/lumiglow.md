@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Elemental
-- **Subcategory**: Light Elemental
+- **Subcategory**: Energy Entity
+- **Monster Type**: Light Elemental
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Aurora Fields
 - **Rarity**: Uncommon

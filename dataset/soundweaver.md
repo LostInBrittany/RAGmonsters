@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Spirit/Ethereal
-- **Subcategory**: Sonic Entity
+- **Subcategory**: Ethereal Entity
+- **Monster Type**: Sonic Entity
 - **Habitat**: Energy/Acoustic
 - **Biome**: Echo Canyons
 - **Rarity**: Rare

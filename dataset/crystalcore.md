@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Construct/Artificial
-- **Subcategory**: Mineral Construct
+- **Subcategory**: Construct
+- **Monster Type**: Mineral Construct
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Crystal Caverns
 - **Rarity**: Uncommon

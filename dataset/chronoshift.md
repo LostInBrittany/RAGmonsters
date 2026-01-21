@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Anomaly/Phenomenon
-- **Subcategory**: Temporal Anomaly
+- **Subcategory**: Anomaly
+- **Monster Type**: Temporal Anomaly
 - **Habitat**: Extra-dimensional
 - **Biome**: Time Fractures
 - **Rarity**: Extremely Rare

@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Elemental
-- **Subcategory**: Storm Predator
+- **Subcategory**: Environmental Entity
+- **Monster Type**: Storm Predator
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Thunderstorm Plains
 - **Rarity**: Rare

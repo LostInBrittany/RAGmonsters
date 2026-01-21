@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Anomaly/Phenomenon
-- **Subcategory**: Quantum Anomaly
+- **Subcategory**: Anomaly
+- **Monster Type**: Quantum Anomaly
 - **Habitat**: Extra-dimensional
 - **Biome**: Probability Nexuses
 - **Rarity**: Extremely Rare

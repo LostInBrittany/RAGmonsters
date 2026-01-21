@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Elemental
-- **Subcategory**: Elemental Hybrid
+- **Subcategory**: Elemental Being
+- **Monster Type**: Elemental Hybrid
 - **Habitat**: Aquatic
 - **Biome**: Glacial Lakes
 - **Rarity**: Uncommon

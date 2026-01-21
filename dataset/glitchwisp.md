@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Anomaly/Phenomenon
-- **Subcategory**: Digital Anomaly
+- **Subcategory**: Digital Entity
+- **Monster Type**: Digital Anomaly
 - **Habitat**: Energy/Acoustic
 - **Biome**: Data Networks
 - **Rarity**: Very Rare

@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Construct/Artificial
-- **Subcategory**: Psychic Construct
+- **Subcategory**: Construct
+- **Monster Type**: Psychic Construct
 - **Habitat**: Extra-dimensional
 - **Biome**: Thought Nexuses
 - **Rarity**: Very Rare

@@ -1,8 +1,9 @@
 # Abyssalurk
 
 ## Basic Information
-- **Category**: Aquatic
-- **Subcategory**: Deep Sea Entity
+- **Category**: Elemental
+- **Subcategory**: Environmental Entity
+- **Monster Type**: Deep Sea Entity
 - **Habitat**: Aquatic
 - **Biome**: Oceanic Trenches
 - **Rarity**: Rare

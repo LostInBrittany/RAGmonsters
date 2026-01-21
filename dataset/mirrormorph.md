@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Construct/Artificial
-- **Subcategory**: Reflective Entity
+- **Subcategory**: Hybrid Entity
+- **Monster Type**: Reflective Entity
 - **Habitat**: Extra-dimensional
 - **Biome**: Mirror Realms
 - **Rarity**: Rare

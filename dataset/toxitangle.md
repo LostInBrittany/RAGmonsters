@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Nature/Organic
-- **Subcategory**: Toxic Flora
+- **Subcategory**: Flora Entity
+- **Monster Type**: Toxic Flora
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Polluted Swamps
 - **Rarity**: Uncommon

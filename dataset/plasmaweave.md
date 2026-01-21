@@ -2,7 +2,8 @@
 
 ## Basic Information
 - **Category**: Elemental
-- **Subcategory**: Energy Construct
+- **Subcategory**: Energy Entity
+- **Monster Type**: Energy Construct
 - **Habitat**: Energy/Acoustic
 - **Biome**: Electromagnetic Hotspots
 - **Rarity**: Rare

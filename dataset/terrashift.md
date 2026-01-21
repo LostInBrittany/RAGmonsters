@@ -3,6 +3,7 @@
 ## Basic Information
 - **Category**: Nature/Organic
 - **Subcategory**: Geological Entity
+- **Monster Type**: Geological Entity
 - **Habitat**: Terrestrial Wilderness
 - **Biome**: Tectonic Boundaries
 - **Rarity**: Rare
